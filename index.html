@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vue-Hello</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <div id="container">
         <h1>{{ message }}</h1>
-        <h2>{{ sub_message }}</h2>
-        
-
+        <h2 :class="color">{{ sub_message }}</h2>
+        <img :src="imagePath" alt="logo">
     </div>
     
 

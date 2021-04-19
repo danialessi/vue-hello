@@ -13,7 +13,8 @@
     <div id="container">
         <h1>{{ message }}</h1>
         <h2 :class="color">{{ sub_message }}</h2>
-        <img :src="imagePath" alt="logo">
+        <img :class="background" :src="imagePath" alt="logo">
+        <button @click="changeColor">Cambia sfondo</button>
     </div>
     
 

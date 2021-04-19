@@ -4,12 +4,20 @@
     box-sizing: border-box;
 }
 
-#container {
-    text-align: center;
-}
-
 .color {
     color: green;
+}
+
+.indigo {
+    background-color: indigo;
+}
+
+.white {
+    background-color: white;
+}
+
+.yellow {
+    background-color: yellow;
 }
 
 #container img {

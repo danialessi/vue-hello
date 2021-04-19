@@ -5,7 +5,19 @@ var app = new Vue (
             message: 'Ciao',
             sub_message: 'sono Vue!',
             color: 'color',
-            imagePath: 'img/logo.png'
+            imagePath: 'img/logo.png',
+            background: 'indigo'
+        },
+        methods: {
+            changeColor: function () {
+                if (this.background == 'indigo') {
+                    this.background = 'yellow';
+                } else if (this.background == 'yellow') {
+                    this.background = 'white';
+                } else {
+                    this.background = 'indigo';
+                }
+            }
         }
         
     }
